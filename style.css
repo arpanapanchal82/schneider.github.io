@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;   
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;  
+}
+
+.navbar ul:last-child{
+    padding-right: 80px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;    
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.navbar ul li:hover{
+    background-color: rgb(92, 187, 224);
+}
+
+a{
+    text-decoration: none;
+    color: black;   
+}
+
+.card-paragraph{
+    color: black;
+    padding: 10px;
+}
+
+.card-link{
+    background-color: #089de3;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 15px;  
+}
+
+.services{
+    background-color: #fff;
+}
+
+.services h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.col{
+    width: 400px;
+    text-align: center;
+    margin-left: 30px;
+    border-right: solid 1px #bebebe;
+    padding-bottom: 30px;
+    
+}
+
+.col:last-child{
+    border-right: none;
+}
+
+.col h3{
+    padding: 10px 0px;
+    color: green;
+}
+
+.col p{
+    padding-bottom: 20px;
+}
+.col a{
+    background-color: #089de3;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.col a:hover{
+    background-color: black;
+    border: solid black 2px;
+}
+
+.customer{
+    background-color: #089de3;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.content{
+    width: 100;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.banner{
+    margin-left: -20px;
+    margin-right: 0px;
+}
+.btn{
+   display: inline-block;
+   background: #fff;
+   color: #555;
+   padding: 8px 30px;
+   margin: 30px 15px;
+   margin-bottom: 80px;
+   border: 2px solid green;
+   border-radius: 30px; 
+   font-weight: bold;
+   transition: background 0.5s;
+}
+.btn:hover{
+    background: #d5c6c6;
+}
+.categories{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    
+}
+.col-1{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-1 img{
+    width: 100%;
+}
+.tips{
+    max-width: 100%;
+}
+.tr-card{
+    margin: 0;
+    padding: 0;
+}
+.tr-card tr td{
+    width: 25%;
+}
+.tr-card img{
+    width: 100%;
+}
+.tr-card tr td div{
+    width: 100%;
+    padding: 10px;
+    margin-left: 12px;
+    box-shadow: 10px 10px 10px 10px rgb(239, 228, 228);
+}
+
+
+/*  testimonial section name */
+
+.testimonial-container {
+    max-width: 100%;
+}
+p.testimonial-paragraph {
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 200px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+img.testimonial-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    object-fit: cover;
+}
+ .testimonial-ancer{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 5px 20px;
+}
+ .testimonial-ancer:hover{
+    background-color: black;
+    border: black solid 1px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+footer small{
+    color: white;
+
+}
+footer small a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
