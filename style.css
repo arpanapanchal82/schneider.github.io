@@ -50,16 +50,20 @@ nav ul li a{
     color: black;
 }
 
-
-
 .navbar ul li::after{
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
-    background: #f44336;
+    background: green;
     display: block;
     margin: auto;
+    transition: 0.5s;
 }
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
 a{
     text-decoration: none;
     color: black;   
@@ -157,7 +161,7 @@ a{
 .btn{
    display: inline-block;
    background: #fff;
-   color: #555;
+   color: #089de3;
    padding: 8px 30px;
    margin: 30px 15px;
    margin-bottom: 80px;
@@ -167,7 +171,7 @@ a{
    transition: background 0.5s;
 }
 .btn:hover{
-    background: #d5c6c6;
+    background: #089de3;
 }
 .categories{
     width: 33.33%;
