@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -49,10 +50,16 @@ nav ul li a{
     color: black;
 }
 
-.navbar ul li:hover{
-    background-color: rgb(92, 187, 224);
-}
 
+
+.navbar ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
 a{
     text-decoration: none;
     color: black;   
