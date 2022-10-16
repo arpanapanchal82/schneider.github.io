@@ -378,7 +378,7 @@ iframe{
 .overview{
     width: 100%;
     min-height: 100vh;
-    background-color: #bebebe;
+    background-image: linear-gradient(rgba(0,0,0,0.3), #badee7);
 }
 .context{
     width: 80%;
@@ -386,7 +386,9 @@ iframe{
     margin: auto;
     padding-top: 100px;
 }
-
+.title h1{
+    color: rgb(15, 132, 132);
+}
 .content-section{
     float: left;
     width: 55%;
@@ -397,15 +399,18 @@ iframe{
 }
 .image-section img{
     width: 100%;
-    height: auto;
+    height: 400px;
 }
 .content-section title{
     text-transform: uppercase;
     font-size: 28px;
 }
+.content-section .text-info h3{
+    color: green;
+}
 .content-section .text-info{
     margin-top: 20px;
-    color: #5d5d5d;
+    color: grey;
     font-size: 21px;
 }
 .content-section .text-info p{
@@ -417,7 +422,7 @@ iframe{
     margin-top: 30px;
 }
 .content-section .text-info .text-link a{
-    background-color: #3d3d3d;
+    background-color: #089de3;
     padding: 12px 40px;
     text-decoration: none;
     color: #fff;
@@ -425,14 +430,14 @@ iframe{
     letter-spacing: 1.5px;
 }
 .content-section .text-info .text-link a:hover{
-    background-color: #089de3;
+    background-color: black;
     color: #fff;
 }
 .content-section .social{
     margin: 40px 40px;
 }
 .content-section .social i{
-    color: #089de3;
+    color: rgb(180, 117, 94);
     font-size: 30px;
     padding: 0px 10px;
 }
