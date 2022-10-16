@@ -115,6 +115,7 @@ a{
 .col p{
     padding-bottom: 20px;
 }
+
 .col a{
     background-color: #089de3;
     color: #fff;
@@ -124,6 +125,7 @@ a{
     padding: 5px 10px;
     border-radius: 20px;
 }
+
 .col a:hover{
     background-color: black;
     border: solid black 2px;
@@ -145,19 +147,23 @@ a{
     text-align: center;
     color: black;
 }
+
 .content h1{
     font-size: 30px;
     margin-top: 80px;
 }
+
 .content p{
     margin: 20px 40px auto;
     font-weight: 100;
     line-height: 25px;
 }
+
 .banner{
     margin-left: -20px;
     margin-right: 0px;
 }
+
 .btn{
    display: inline-block;
    background: #fff;
@@ -170,18 +176,20 @@ a{
    font-weight: bold;
    transition: background 0.5s;
 }
+
 .btn:hover{
     background: #089de3;
 }
+
 .categories{
     width: 33.33%;
     float: left;
     text-align: center;
     margin-top: 20px;
     padding: 0px 50px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
 .col-1{
     flex-basis: 30%;
     min-width: 250px;
