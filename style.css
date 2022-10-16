@@ -380,7 +380,7 @@ iframe{
     min-height: 100vh;
     background-color: #bebebe;
 }
-.content{
+.context{
     width: 80%;
     display: block;
     margin: auto;
